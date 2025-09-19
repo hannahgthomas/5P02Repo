@@ -92,5 +92,7 @@ I was confused at first because I assumed that the screen was like creating a ne
 
 ### Question 8:
 
+The command I used to write the last file was 
 
+history | tail -n 3 > git_commit_commands.txt
 
