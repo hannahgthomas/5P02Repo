@@ -1,0 +1,4 @@
+  587  git add ProblemSet1.md
+  588  git commit -m "trying again"
+  589  git push
+  590  history | tail -n 4 > git_commands.txt
