@@ -1,0 +1,4 @@
+total 0
+-rwxrwxrwx 1 thomh thomh 0 Sep 19 08:03 datafileslist.txt
+-rwxrwxrwx 1 thomh thomh 0 Sep 19 07:38 subj11.txt
+-rwxrwxrwx 1 thomh thomh 8 Sep 19 07:34 subj11new.txt

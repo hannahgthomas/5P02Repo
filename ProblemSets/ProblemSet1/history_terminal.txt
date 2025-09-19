@@ -1,0 +1,511 @@
+    1  ls
+    2  pwd
+    3  cd ../
+    4  pwd
+    5  ls
+    6  man ls
+    7  cd ../
+    8  ls
+    9  cd ../
+   10  ls
+   11  cd ../
+   12  ls
+   13  ls -a
+   14  ls -G
+   15  ls -t
+   16  ls -lrt
+   17  cd ~/
+   18  pwd
+   19  ls
+   20  cd home
+   21  pwd
+   22  cd home/thomh
+   23  cd /home/thomh
+   24  pwd
+   25  cd D
+   26  pwd
+   27  cd Desktop
+   28  cd /home/D
+   29  cd /home/thomh/d
+   30  mkdir ClassFiles
+   31  cd ~/
+   32  cd /
+   33  ls l
+   34  cd ~/
+   35  ls l
+   36  ls -l
+   37  touch tmp.txt
+   38  ls -l
+   39  vi tmp.txt
+   40  cp tmp.txt tmp2.txt
+   41  cp tmp.text tmp3.txt
+   42  cp tmp.txt tmp3.txt
+   43  cp tmp.txt tmpNew.txt
+   44  mkdir replicas
+   45  man mv
+   46  mv tmp2.txt replicas
+   47  ls *.txt
+   48  mv *.txt replicas
+   49  ls -l
+   50  cd replicas
+   51  ls
+   52  rm tmp3.txt
+   53  ls
+   54  cd Downloads
+   55  cd /
+   56  cd Downloads
+   57  cd ~/
+   58  cd Downloads
+   59  cd ~/
+   60  clear
+   61  ./mnt/c/Users/thomh/Downloads
+   62  /mnt/c/Users/thomh/Downloads
+   63  ls -lrt
+   64  cd /mnt/c/Users/thomh/Downloads
+   65  mv methane.pdb ClassFiles replicas
+   66  mv methane.pdb ClassFiles/replicas
+   67  mv methane.pdb ClassFiles
+   68  ls -l
+   69  clear
+   70  cd /ClassFiles
+   71  cd /
+   72  cd ~/
+   73  cd /ClassFiles
+   74  cd/mnt/Users/thomh
+   75  cd /mnt/Users/thomh
+   76  cd /mnt/Users/thomh/
+   77  cd 
+   78  pwd
+   79  cd /ClassFiles/
+   80  cd /ClassFiles
+   81  ls -l
+   82  ls -lrt
+   83  cd ~/ClassFiles
+   84  ls -l
+   85  cd ~/replicas
+   86  ls -l
+   87  cd ~/Downloads
+   88  cd /mnt/c/Users/thomh/Downloads
+   89  mv *.pdb ~/ClassFiles
+   90  cd ~/ClassFiles
+   91  ls -l
+   92  sudo apt-get install git -y
+   93  git --version
+   94  ls -help
+   95  ls --help
+   96  man ls
+   97  pwd
+   98  ls
+   99  mkdir ClassFiles
+  100  ClassFiles
+  101  ls -l
+  102  ./ClassFiles
+  103  ClassFiles
+  104  cd/ClassFiles
+  105  cd /ClassFiles
+  106  cd /mnt/c/Users/thomh/ClassFiles
+  107  ls -l
+  108  ls
+  109  mkdir replicas
+  110  ls
+  111  tmp.txt
+  112  touch tmp.txt
+  113  ls
+  114  Downloads/*.pdb ./
+  115  thomh/Downloads/*.pdb ./
+  116  mv thomh/Downloads/*.pdb ./
+  117  mv Downloads/*.pdb ./
+  118  ls
+  119  cd /Downloads
+  120  cd /thomh/Downloads
+  121  cd /mnt/c/Users/thomh/Downloads
+  122  mv *.pdb ClassFiles
+  123  mv ~/*.pdb /mnt/c/Users/thomh/ClassFiles 
+  124  mv *.pdb /mnt/c/Users/thomh/ClassFiles
+  125  cd /mnt/c/Users/thomh/ClassFiles
+  126  ls
+  127  wc cubane.pdb
+  128  man wc
+  129  wc *.pdb
+  130  wc *.pdb > lengths.txt
+  131  touch tmp.txt
+  132  ls -lrt *.txt
+  133  cat lengths.txt
+  134  mv /Downloads/*.txt ./
+  135  mv /mnt/c/Users/thomh/Downloads/*.txt ./
+  136  ls
+  137  rm LittleWomen (1).txt
+  138  cat LittleWomen.txt
+  139  cat sorted-lengts.txt
+  140  cat sorted-lengths.txt
+  141  sort -n lengths.txt | head -n 1
+  142  sort -n lengths.txt > sorted-lengths.txt
+  143  sort -n lengths.txt | head -n 1
+  144  wc -w *.pdb | sort -n | head -n 1
+  145  man wc
+  146  cat haiku.txt
+  147  grep the haiku.txt
+  148  grep -E the is haiku.txt
+  149  grep -E the -E is haiku.txt
+  150  grep -e the is haiku.txt
+  151  grep -e the/is haiku.txt
+  152  grep -e the-is haiku.txt
+  153  egrep 'the|is' haiku.txt
+  154  man egrep
+  155  find lengths.txt
+  156  giit config --global user.name "hannahgthomas"
+  157  git config --global user.name "hannahgthomas"
+  158  git config --global user.name "thomhann@outlook.com"
+  159  git config --global --edit
+  160  git config --global user.name "hannahgthomas"
+  161  git config --global --edit
+  162  git config --global user.email "thomhann@outlook"
+  163  git config --global --edit
+  164  cd ~/
+  165  ls -a
+  166  notepad .gigconfig
+  167  vi .gitconfig
+  168  vi. gitconfig
+  169  vi gitconfig
+  170  pwd
+  171  git config --global init.defaultBranch main
+  172  vi .gitconfig
+  173  ls
+  174  cd /ClassFiles
+  175  cd ~/ClassFiles
+  176  mkdir recipes
+  177  cd ~/recipes
+  178  ls
+  179  cd ~/recipes
+  180  cd
+  181  cd recipes
+  182  cd ClassFiles/recipes
+  183  git init
+  184  ls -a
+  185  ls -all
+  186  cd .git
+  187  ls
+  188  cd ~/ClassFiles/recipes
+  189  git status
+  190  touch guacamole.md
+  191  vi guacamole.md
+  192  git status
+  193  git add guacamole.md
+  194  git commit -m "Create initial structure for a Guacamole recipe"
+  195  git status
+  196  vi guacamole
+  197  vi guacamole.md
+  198  git status
+  199  git diff
+  200  git add guacamole.md
+  201  git status
+  202  git diff -staged
+  203  git diff --stage
+  204  git diff --staged
+  205  git committ -m "added some ingredients"
+  206  git commit -m "added some ingredients"
+  207  vi guacamole.md
+  208  git diff
+  209  git add
+  210  git add guacamole.md
+  211  git commit -m "more avos please
+  212  git commit -m "more avos please
+  213  git commit -m "more avos please"
+  214  git status
+  215  git log
+  216  mkdir healthy_recipes
+  217  ls
+  218  git diff
+  219  cd healthy_recipes
+  220  touch cake.md
+  221  ls
+  222  cd recipes
+  223  cd ../
+  224  cd healthy_recipes
+  225  cd ../
+  226  git diff
+  227  git add healthy_recipes/cake.md
+  228  git status
+  229  vi guacamole.md
+  230  git diff
+  231  git diff HEAD guacamole.md
+  232  git log
+  233  git log --oneline
+  234  git diff 35a2157
+  235  git add guacamole.md
+  236  git commit -m "just making sure"
+  237  git log --oneline
+  238  git restore guacamole.md
+  239  git log --oneline
+  240  git restore -s 35a2157 guacamole.md
+  241  vi guacamole.md
+  242  touch tmp.txt
+  243  git status
+  244  touch .gitignore
+  245  vi gitignore
+  246  git status
+  247  vi .gitignore
+  248  git status
+  249  cd ~/
+  250  ls -a
+  251  ssh-keygen -t ed25519 -C "thomhann@outlook.com"
+  252  ls -a
+  253  vi githubkey
+  254  vi githubkey.pub
+  255  git remote add origin git@github.com:hannahgthomas/recipes.git
+  256  cd recipes
+  257  cd /ClassFiles/recipes
+  258  pwd
+  259  cd recipes
+  260  cd /recipes
+  261  cd ClassFiles/recipes
+  262  git remote add origin git@github.com:hannahgthomas/recipes.git
+  263  git push origin main
+  264  vi githubkey.pub
+  265  ~/
+  266  ../
+  267  ./
+  268  ~
+  269  ~/
+  270  cd ~/
+  271  vi githubkey.pub
+  272  cd ClassFiles/recipes
+  273  git remote add origin git@github.com:hannahgthomas/recipes.git
+  274  git push origin main
+  275  git branch -M main
+  276  git push -u origin main
+  277  cd ~/
+  278  vi .gitconfig 
+  279  cd ClassFiles/recipes/
+  280  git push origin main
+  281  cd ~/
+  282  vi .gitconfig 
+  283  cd ClassFiles/recipes/
+  284  git push origin main
+  285  cd ~/
+  286  ls -a
+  287  vi githubkey.pub 
+  288  eval `ssh-agent -s`
+  289  ssh-add ~/.ssh/id_rsa
+  290  ssh-add ~/.ssh/SHA256:SSRtSWGaXX9xErgqmYuJrNacZS1K8HIDyHarXtE5P0Q
+  291  ssh-add ~/githubkey.pub
+  292  git push origin main
+  293  cd ClassFiles/recipes/
+  294  git push origin main
+  295  git remote add origin https://github.com/hannahgthomas/recipes.git
+  296  git branch -M main
+  297  git push -u origin main
+  298  git remote add origin https://github.com/hannahgthomas/recipes.git
+  299  git branch -M main
+  300  git push -u origin main
+  301  ssh -vT git@github.com
+  302  ssh -T git@github.com
+  303  cd .././
+  304  cd ../
+  305  ls
+  306  ls -a
+  307  cd .ssh/
+  308  ls
+  309  cd ../
+  310  mv githubkey .ssh/
+  311  mv githubkey.pub .ssh/
+  312  git push -u origin main
+  313  cd ClassFiles/recipes/
+  314  git push -u origin main
+  315  $ eval "$(ssh-agent -s)"
+  316  eval "$(ssh-agent -s)"
+  317  ssh-add -l -E sha256
+  318  ssh-keygen -t ed25519 -C "thomhann@outlook.com"
+  319  vi ~/.ssh/id_ed25519.pub 
+  320  git push -u origin main
+  321  ls
+  322  cd /Documents
+  323  cd ../Documents
+  324  pwd
+  325  cd /Documents
+  326  cd /Documents/
+  327  cd Documents
+  328  ls
+  329  cd ../
+  330  cd ClassFiles
+  331  ls
+  332  mkdir ProblemSet1
+  333  ls
+  334  cd ClassFiles
+  335  ls
+  336  git config --global --edit
+  337  cd ProblemSet1
+  338  git init
+  339  ls -a
+  340  git status
+  341  touch ProblemSet1
+  342  ls
+  343  rm ProblemSet1
+  344  ls
+  345  touch ProblemSet1.md
+  346  vi ProblemSet1
+  347  vi ProblemSet1.md
+  348  git config --global --edit
+  349  git config --global core.editor "'c/program files/sublime text 3/sublime_text.exe' -w"
+  350  sublime ProblemSet1.md
+  351  subl ProblemSet1.md
+  352  git config --global core.editor "'c:/program 	files/sublime text 3/sublime_text.exe' -w"
+  353  subl 
+  354  sudo snap install sublime-text
+  355  git config --global core.editor "'/mnt/c/Program Files/Sublime Text 3/sublime_text.exe' -w"~
+  356  subl
+  357  git config --global core.editor "'/mnt/c/Users/thomh/Program Files/Sublime Text 3/sublime_text.exe' -w"~
+  358  subl
+  359  git config --global core.editor "'/mnt/c/Users/thomh/Program Files/Sublime Text 3/sublime_text.exe' -w"
+  360  git config --global core.editor
+  361  subl
+  362  subl ProblemSet1.md
+  363  ls
+  364  "/mnt/c/Users/thomh/Program Files/Sublime Text 3/sublime_text.exe" ProblemSet1.md
+  365  "/mnt/c/Program Files/Sublime Text/sublime_text.exe" ProblemSet1.md
+  366  git config --global core.editor "'/mnt/c/Program Files/Sublime Text/sublime_text.exe' -w"
+  367  git config --global core.editor
+  368  ProblemSet1.md
+  369  subl ProblemSet1.md
+  370  git commit
+  371  open ProblemSet1.md
+  372  echo "alias subl='/mnt/c/Program\ Files/Sublime\ Text/sublime_text.exe'" >> ~/.bashrc
+  373  source ~/.bashrc
+  374  subl ProblemSet1.md
+  375  ls -a
+  376  ls -all
+  377  ls -lrt
+  378  ls -l
+  379  ls -lr
+  380  ls -r
+  381  ls -lr
+  382  man l
+  383  man -;
+  384  man -l
+  385  man ls -r
+  386  sub ProblemSet1.md
+  387  subl ProblemSet1.md
+  388  ls -all
+  389  ls -l
+  390  cd thomh
+  391  thomh
+  392  cd ./thomh
+  393  cd ../
+  394  cd Documents
+  395  cd ../
+  396  cd Documents
+  397  cd thomh
+  398  cd /mnt/c/Users/thomh/
+  399  ~/
+  400  cd Documents
+  401  ~/
+  402  cd ~/
+  403  pwd
+  404  cd
+  405  cd ./
+  406  ../
+  407  cd /mnt/c/Users/thomh/
+  408  cd ,/
+  409  cd Documents
+  410  man ~/
+  411  cd
+  412  pwd
+  413  cd /
+  414  pwd
+  415  cd Documents
+  416  cd /mnt/c/Users/thomh/
+  417  cd Documents
+  418  cd
+  419  pwd
+  420  cd /mnt/c/Users/thomh/
+  421  pwd
+  422  cd Documents
+  423  cd -
+  424  cd Documents
+  425  ..
+  426  cd ../
+  427  cd Documents
+  428  cd /mnt/c/Users/thom/Documents
+  429  cd mnt/c/Users/thomh
+  430  cd /mnt/c/Users/thomh
+  431  subl ProblemSet1.md
+  432  cd /ClassFiles/ProblemSet1
+  433  cd ClassFiles/ProblemSet1
+  434  subl ProblemSet1.md
+  435  mkdir Data
+  436  ls
+  437  cd Data
+  438  touch subj01.txt
+  439  ls
+  440  cp subj01.txt
+  441  cp --help
+  442  cp subj01.txt subj02.txt
+  443  ls
+  444  cp subj01.txt subj03.txt
+  445  cp subj01.txt subj04.txt
+  446  cp subj01.txt subj05.txt
+  447  cp subj01.txt subj11.txt
+  448  ls
+  449  mv .txt ../
+  450  mv *.txt ../
+  451  ls
+  452  cd ../
+  453  ls
+  454  mv *.txt Data
+  455  cd Data
+  456  ls
+  457  subl ProblemSet1.md
+  458  man rm
+  459  cd ../
+  460  subl ProblemSet1.md
+  461  cd ClassFiles/ProblemSet1
+  462  ls
+  463  cd Data
+  464  ls
+  465  man rm
+  466  rm subj{01:05}
+  467  ls
+  468  rm subj{01:05}.txt
+  469  rm subj{01, 02, 03, 04, 05}
+  470  rm subj0*.txt
+  471  ls
+  472  cd ../
+  473  subl ProblemSet1.md
+  474  man tee
+  475  cd Data
+  476  ls
+  477  tee cp subj11.txt subj11new.txt
+  478  cd ClassFiles/ProblemSet1/Data
+  479  cp | tee subj11.txt
+  480  ls -l | tee -a  program.ls
+  481  ls
+  482  program.ls
+  483  tee program.ls
+  484  ls -l | tee -a program.ls.txt
+  485  subl program.ls.txt
+  486  rm cp
+  487  ls
+  488  rm program.ls program.ls.txt
+  489  ls
+  490  cd ../
+  491  ls
+  492  cd Data
+  493  ls -l | tee datafileslist.txt
+  494  ls
+  495  cd ../
+  496  wc ProblemSet1.md
+  497  man wc
+  498  wc -w ProblemSet1.md
+  499  wc -w |tee wordcount.txt
+  500  wc | tee wordcount.txt
+  501  ls
+  502  rm wordcount.txt
+  503  wc -w ProblemSet1.md | tee wordcount.txt
+  504  ls
+  505  subl ProblemSet1.md
+  506  wc -w ProblemSet1.md | tee -a wordcount.txt
+  507  subl wordcount.txt
+  508  screen
+  509  sudo apt install screen
+  510  screen
+  511  history | tee history_terminal.txt
