@@ -15,7 +15,7 @@ c) The man for -l
 
 > -l     use a long listing format
 
-<span style="color: red;">3/3.</span>
+<font color="red">3/3.</font>
 
 ### Question 2:
 
@@ -29,7 +29,7 @@ If my home directory was users/username and I navigated to users/username/Docume
 
 `users/username/Documents$ cd users/username` Directly specify the directory I wish to return to
 
-<span style="color: red;">2.5/3.</span>
+<font color="red">2.5/3.</font>
 
 
 ### Question 3:
@@ -66,7 +66,7 @@ OR
 
 Will remove all files except for subj11 because the wildcard * indicates that after 0* anything will be taken. 
 
-<span style="color: red;">5/5</span>
+<font color="red">5/5</font>
 
 ### Question 4:
 
@@ -86,7 +86,7 @@ What is output into my terminal is the result from the input of the command `wc 
 
 **This function seems particularly helpful for debugging code, since you can save multiple attempts and compare the resulting output.** 
 
-<span style="color: red;">3/3</span>
+<font color="red">3/3</font>
 
 ### Question 5:
 
@@ -100,6 +100,8 @@ To write my history using a pipe and write it to a file I used the following cod
 These files are the same, showing my history for my current session up until I created the screen, the commands I ran within that screen were printed in my history_screen.txt file - I created a `touch screencommands.txt` within that screen as well. When I exited the screen, and ran the history_terminal.txt I could not view what I did ran within the screen, just that I had entered into the screen. However, my screencommands.txt file was there. 
 
 I was confused at first because I assumed that the screen was like creating a new "window" that would not contain everything I had already worked on prior to the screen. But it's still the same login session, just a seperate "shell" within the session.
+
+<font color="red">It looks like you saved the two files with the wrong names. -.5  2.5/3</font?
 
 ### Question 6: 
 
