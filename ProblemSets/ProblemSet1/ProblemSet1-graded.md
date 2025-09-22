@@ -15,7 +15,7 @@ c) The man for -l
 
 > -l     use a long listing format
 
-<font color="red">3/3.</font>
+:memo: 3/3
 
 ### Question 2:
 
@@ -25,11 +25,11 @@ If my home directory was users/username and I navigated to users/username/Docume
 
 `users/username/Documents$ cd -` Operates like a toggle to move between directories
 
-<span style="color: red;">We didn't cover the `cd -' in class, so I was looking for `cd ~'. Also I'm not sure what you mean by toggle. -.5 </span>
+:memo: **We didn't cover the `cd -' in class, so I was looking for `cd ~'. Also I'm not sure what you mean by toggle. -.5**
 
 `users/username/Documents$ cd users/username` Directly specify the directory I wish to return to
 
-<font color="red">2.5/3.</font>
+:memo: **2.5/3**
 
 
 ### Question 3:
@@ -66,7 +66,7 @@ OR
 
 Will remove all files except for subj11 because the wildcard * indicates that after 0* anything will be taken. 
 
-<font color="red">5/5</font>
+:memo: **5/5**
 
 ### Question 4:
 
@@ -86,7 +86,7 @@ What is output into my terminal is the result from the input of the command `wc 
 
 **This function seems particularly helpful for debugging code, since you can save multiple attempts and compare the resulting output.** 
 
-<font color="red">3/3</font>
+:memo: **3/3**
 
 ### Question 5:
 
@@ -101,15 +101,19 @@ These files are the same, showing my history for my current session up until I c
 
 I was confused at first because I assumed that the screen was like creating a new "window" that would not contain everything I had already worked on prior to the screen. But it's still the same login session, just a seperate "shell" within the session.
 
-<font color="red">It looks like you saved the two files with the wrong names. -.5  2.5/3</font?
+:memo: **It looks like you saved the two files with the wrong names. -.5  2.5/3**
 
 ### Question 6: 
 
 ![This is a picture of my screenshot](screenshot.png)
 
+:memo: **3/3**
+
 ### Question 7:
 
 ![This is a picture of my screenshot](screenshot_terminal.png)
+
+:memo: **3/3**
 
 ### Question 8:
 
@@ -120,4 +124,8 @@ The command I used to write the last file was:
 - `head` will print the top of the history 
 - `tail` will print the bottom of the history
 - `n 4` specifies how many lines from the tail
+
+:memo: **3/3**
+
+:memo: **Total:** 25/26
 
