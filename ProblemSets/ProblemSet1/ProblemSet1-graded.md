@@ -127,5 +127,5 @@ The command I used to write the last file was:
 
 :memo: **3/3**
 
-:memo: **Total:** 25/26
+:memo: **Total:** 24/26
 
