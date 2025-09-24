@@ -101,7 +101,7 @@ These files are the same, showing my history for my current session up until I c
 
 I was confused at first because I assumed that the screen was like creating a new "window" that would not contain everything I had already worked on prior to the screen. But it's still the same login session, just a seperate "shell" within the session.
 
-:memo: **It looks like you saved the two files with the wrong names. -.5  2.5/3**
+:memo: **It looks like you saved the two files with the wrong names. It's also not the case that the two files are exactly the same. The last bit is different - the commands typed inside the screen don't end up in the history file in the main shell.  -1.5  1.5/3**
 
 ### Question 6: 
 
